@@ -70,3 +70,23 @@ a:hover{
     font-size: 1.3rem;
     text-decoration: underline;
 }
+
+.ingreso-fin span{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.ubicacion{
+    width: 40rem;
+    height: 20rem;
+    border: none;
+}
