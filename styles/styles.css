@@ -91,4 +91,13 @@ a:hover{
     border: none;
 }
 
-.imagenes-instituto{}
+.imagenes-instituto{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.imagenes-instituto img{
+    width: 25rem;
+}
