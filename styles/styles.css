@@ -94,10 +94,13 @@ a:hover{
 .imagenes-instituto{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
+    padding: 3rem;
 }
 
 .imagenes-instituto img{
     width: 25rem;
+    height: 20rem;
+    object-fit: cover;
 }
